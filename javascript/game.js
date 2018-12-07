@@ -110,6 +110,7 @@ function playGame(){
         wins++;
         $("#dispWins").html(wins);
         $("#dispMessage").html("<h6> You Won! </h6>");
+         //how do I display this message for just 5 seconds?
         setTimeout(function() {
             $("#dispMessage").fadeOut(1500);
               },1000);
