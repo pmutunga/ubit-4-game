@@ -93,6 +93,7 @@ function updateContent(){
 
 function resetGame(){
     totalScore = 0;
+    crystalArr = [];
     generateRandom();
     crystalValues();
     assignCrystalsvalue();
