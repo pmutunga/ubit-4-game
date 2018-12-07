@@ -1,0 +1,75 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystals Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row"> <!--Main heading-->
+            <div class="col">
+                <h1>Crystals Collector!</h1>
+            </div>
+           
+        </div> <!---->
+        
+        <div class="row"> <!--Instructions-->
+                <div class="col-lg-6 col-md instructions">
+                    <p> You will be give a random number at the start of the game.</p>
+                    <p> There are four crystals below. By clicking on a crystal you wull add a specific amount of points to your total score.</p>
+                    <p>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>Each time the game starts, the value of each crystal will be different</p>
+                </div>
+
+        </div> <!--End of instructions-->
+        
+        <div class="row results"> <!--Dynamic content. Random number display and scores display-->
+                
+                <div class="col-lg-3" id="dispRandom"> <p id="dispRandomNo"></p></div> <!--Random Number-->
+                
+                <div class="col-lg-2" id="dispResults">  <!--Results-->
+                    <p id="dispMessage"></p>
+                    <p>Wins: <span id="dispWins"></span></p>
+                    <p>Losses: <span id="dispLosses"></span></p>
+                </div>
+
+        </div> <!--End of random number and results display-->
+        
+        <div class="row"> <!--Crystals-->
+            <div class="col-lg-6 col-md">
+                <button id ="crystVal1" class = "crystVal"> <img class="dispCryst" src="images/cryst1.png" alt="magenta crystal" ></button>
+                <button id ="crystVal2" class = "crystVal"> <img class="dispCryst"  src="images/cryst2.png" alt="diamond blue cystal"></button>
+                <button id ="crystVal3" class = "crystVal"> <img class="dispCryst"  src="images/cryst3.png" alt="yellow crystal"></button>
+                <button id ="crystVal4" class = "crystVal"> <img class="dispCryst"  src="images/cryst4.png" alt="emerald crystal"></button>
+
+            </div>
+
+        </div> <!--End of Crystals-->
+        
+        <div class="row"> <!--Your score info-->
+            <div class="col-lg-4 col-md">
+                <p class ="score"> Your total score is:</p>
+                <p class="score" id="dispTotal"></p>
+            </div>
+
+        </div> <!---->
+       
+
+        
+
+</div>  <!--End of content container-->
+
+<!--jQuery files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript/game.js"></script>  
+    
+
+</body>
+</html>
