@@ -5,11 +5,11 @@ CrystalCollector Game
 
 ### Overview
 
-In this assignment, I created a fun and interactive game for web browsers. This app dynamically update the HTML pages with the jQuery library.
+The Crystal Collector is a fun and interactive game for web browsers. This app dynamically update the HTML pages with the jQuery library.
 
 ### Here's how the app works:
 
-   * There will be four crystals displayed as buttons on the page.
+   * There are four crystals displayed as buttons on the page.
 
    * The player will be shown a random number at the start of the game.
 
@@ -28,11 +28,6 @@ In this assignment, I created a fun and interactive game for web browsers. This 
 
    * The app shows the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
-##### Option 1 Game design notes
+##### Play the game
 
-* The random number shown at the start of the game should be between 19 - 120.
-
-* Each crystal should have a random hidden value between 1 - 12.
-
-
-**Thank you!**
+[Play now](https://pmutunga.github.io/unit-4-game/)
